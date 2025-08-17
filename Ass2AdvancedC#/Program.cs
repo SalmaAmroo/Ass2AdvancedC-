@@ -2,6 +2,44 @@
 
 namespace Ass2AdvancedC_
 {
+    #region Q3
+    //class FixedSizeList<T>
+    //{
+    //    public int Capacity { get; set; }
+    //    public T[] Items { get; set; }
+
+    //    public int Count { get; set; }
+    //    public FixedSizeList(int Capacity)
+    //    {
+    //        if (Capacity <= 0)
+    //            Console.WriteLine("Capacity must be greater than zero.");
+    //        this.Capacity = Capacity;
+
+    //        Items = new T[Capacity];
+    //        Count = 0;
+    //    }
+    //    public void Add(T Items)
+    //    {
+    //        if (Count >= Capacity)
+    //        {
+    //            throw new InvalidOperationException("List is Full");
+    //        }
+
+    //        this.Items[Count] = Items;
+    //        Count++;
+    //    }
+    //    public T GetElement(int index)
+    //    {
+    //        if (index < 0 || index >= Count)
+    //        {
+    //            throw new ArgumentOutOfRangeException("Index is out of range.");
+    //        }
+    //        return Items[index];
+
+    //    }
+
+    //}
+    #endregion
     internal class Program
     {
         #region Q1 
@@ -51,6 +89,36 @@ namespace Ass2AdvancedC_
             //foreach (int item in EvenNumbers)
             //{
             //    Console.Write(item + " ");
+            //}
+
+            #endregion
+
+            #region CallQ3
+
+            //FixedSizeList<int> fixedSizeList = new FixedSizeList<int>(5);
+            //fixedSizeList.Add(2);
+            //fixedSizeList.Add(4);
+            //fixedSizeList.Add(6);
+            //fixedSizeList.Add(8);
+            //fixedSizeList.Add(10);
+            //try 
+            //{
+            //    fixedSizeList.Add(12); 
+            //}
+            //catch (InvalidOperationException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            //Console.WriteLine($"The Element is : { fixedSizeList.GetElement(0)}");
+
+            //try
+            //{
+            //    Console.WriteLine($"The Element is : {fixedSizeList.GetElement(6)}");
+            //}
+            //catch (ArgumentOutOfRangeException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
             //}
 
             #endregion
