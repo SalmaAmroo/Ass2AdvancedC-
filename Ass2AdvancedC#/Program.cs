@@ -43,6 +43,18 @@ namespace Ass2AdvancedC_
 
             #endregion
 
+            #region Q2
+
+            //List<int> List = new List<int> {1,2,3,4,5,6,7,8};
+            //List<int> EvenNumbers= List.FindAll(N => N % 2 == 0);
+            //Console.WriteLine("Even Numbers:");
+            //foreach (int item in EvenNumbers)
+            //{
+            //    Console.Write(item + " ");
+            //}
+
+            #endregion
+
 
         }
     }
