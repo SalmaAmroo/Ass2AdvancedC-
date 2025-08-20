@@ -378,6 +378,20 @@ namespace Ass2AdvancedC_
             //    Console.Write(item + " ");
             //}
             #endregion
+
+            #region Q11
+            //Queue<object> queue = new Queue<object>();
+            //queue.Enqueue(1);
+            //queue.Enqueue("Karim");
+            //queue.Enqueue(3.14);
+
+            //Console.WriteLine("Queue contents:");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
