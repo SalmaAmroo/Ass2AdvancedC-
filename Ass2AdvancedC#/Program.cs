@@ -138,6 +138,29 @@ namespace Ass2AdvancedC_
 
         //}
         #endregion
+
+        #region Q8
+        //public static bool IsBalanced (string Expression)
+        //{
+        //    Stack<Char> stack = new Stack<char>();
+        //    foreach (char c in Expression)
+        //    {
+        //        if (c == '[' || c == '(' || c == '{')
+        //            stack.Push(c);
+        //        else if (c == ']' || c == ')' || c == '}')
+        //        {
+        //            if (stack.Count == 0)
+        //                return false;
+        //            char top = stack.Pop();
+        //            if ((c == ']' && top != '[') || (c == ')' && top != '(') || (c == '}' && top != '{'))
+        //                return false;
+
+        //        }
+        //    }
+        //    return stack.Count == 0;
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1
@@ -282,6 +305,18 @@ namespace Ass2AdvancedC_
             //    Console.Write(item + " ");
             //}
 
+            #endregion
+
+            #region CallQ8
+            //string expression = "{[()]}";
+            //if (IsBalanced(expression))
+            //{
+            //    Console.WriteLine($"{expression} is Balanced.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{expression} isNot Balanced.");
+            //}
             #endregion
         }
     }
