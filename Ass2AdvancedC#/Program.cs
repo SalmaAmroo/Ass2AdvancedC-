@@ -161,6 +161,27 @@ namespace Ass2AdvancedC_
 
         //}
         #endregion
+
+        #region Q9
+        //public static int[] RemoveDuplicatedElements (int[] Array)
+        //{
+        //    List<int> Elements = new List<int>();
+
+        //    for (int i=0;i<Array.Length;i++)
+        //    { 
+        //        bool Found = false;
+        //        for (int j=0;j<Elements.Count;j++)
+        //        {
+        //            if (Array[i] == Elements[j])
+        //                Found = true;
+        //        }
+        //        if (!Found)
+        //            Elements.Add(Array[i]);
+        //    }
+        //    return Elements.ToArray ();
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1
@@ -316,6 +337,16 @@ namespace Ass2AdvancedC_
             //else
             //{
             //    Console.WriteLine($"{expression} isNot Balanced.");
+            //}
+            #endregion
+
+            #region CallQ9
+            //int[] Array = { 1, 2, 3, 4, 5, 1, 2 ,3,6};
+            //int[] Array2 = RemoveDuplicatedElements(Array);
+
+            //for (int i = 0; i < Array2.Length; i++)
+            //{
+            //    Console.WriteLine(Array2[i] + " ");  
             //}
             #endregion
         }
