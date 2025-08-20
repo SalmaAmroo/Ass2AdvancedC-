@@ -182,6 +182,25 @@ namespace Ass2AdvancedC_
 
         //}
         #endregion
+
+        #region Q10
+        //public static ArrayList RemoveOddNumber(ArrayList  arrayList)
+        //{
+        //    ArrayList evenNumbers = new ArrayList();
+        //    for (int i = 0; i < arrayList.Count; i++)
+        //    { 
+        //        int number = (int)arrayList[i];
+        //        if (number %2 ==0)
+        //        {
+        //            evenNumbers.Add(number);
+        //        }
+                
+
+        //    }
+        //    return evenNumbers;
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1
@@ -347,6 +366,16 @@ namespace Ass2AdvancedC_
             //for (int i = 0; i < Array2.Length; i++)
             //{
             //    Console.WriteLine(Array2[i] + " ");  
+            //}
+            #endregion
+
+            #region CallQ10
+            //ArrayList arrayList = new ArrayList() { 1,2,3,4,5,6,7};
+            //ArrayList arr2= RemoveOddNumber(arrayList);
+            //Console.WriteLine("Even Numbers:");
+            //foreach (int item in arr2)
+            //{
+            //    Console.Write(item + " ");
             //}
             #endregion
         }
