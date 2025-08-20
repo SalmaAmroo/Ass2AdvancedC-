@@ -153,16 +153,51 @@ namespace Ass2AdvancedC_
 
             #region CallQ4
 
-           //string word = "aKarim";
-           //int index = NonRepeatedCharacter(word);
-           // if (index != -1)
-           // {
-           //     Console.Write($"The First Character NonRepeated is : {word[index]} And its index : {index}");
-           // }
-           // else
-           // {
-           //     Console.WriteLine("There is no non-repeated character in the word.");
-           // }
+            //string word = "aKarim";
+            //int index = NonRepeatedCharacter(word);
+            // if (index != -1)
+            // {
+            //     Console.Write($"The First Character NonRepeated is : {word[index]} And its index : {index}");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("There is no non-repeated character in the word.");
+            // }
+
+
+            #endregion
+
+            #region Q5
+            //Console.WriteLine("Enter the size of the array & number of queries with split ' ':");
+            //string[] GetSize = Console.ReadLine()?.Split(' ');
+            //int N = int.Parse(GetSize[0]);
+            //int Q = int.Parse(GetSize[1]);
+
+            //int[] Array = new int[N];
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < Array.Length; i++)
+            //{
+            //    Array[i] = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("Enter the X of the query:");
+
+            //for (int i = 0; i < Q; i++)
+            //{ 
+            //    int X = int.Parse(Console.ReadLine());
+            //    int Count = 0;
+
+            //    for (int j = 0; j < Array.Length; j++)
+            //    {
+            //        if (Array[j] < X)
+            //        {
+            //            Count++;
+            //        }
+            //    }
+            //    Console.WriteLine($"Count : {Count}");
+
+
+            //}
+
 
 
             #endregion
