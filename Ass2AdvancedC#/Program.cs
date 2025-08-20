@@ -194,13 +194,52 @@ namespace Ass2AdvancedC_
         //        {
         //            evenNumbers.Add(number);
         //        }
-                
+
 
         //    }
         //    return evenNumbers;
 
         //}
         #endregion
+
+        #region Q12
+        //public static void Search()
+        //{ 
+        //  Stack <int> stack = new Stack<int>();
+        //  Console.WriteLine("Enter the size of stack :");
+        //  int size = int.Parse(Console.ReadLine());
+        //  Console.WriteLine("Enter the elements of stack :");
+        //    for (int i = 0; i < size; i++)
+        //    {
+        //        stack.Push(int.Parse(Console.ReadLine()));
+        //    }
+
+        //   Console.WriteLine("Enter the Target to search :");
+        //   int target = int.Parse(Console.ReadLine());
+
+        //   bool found = false;
+        //   int Count = 0;
+        //    foreach (int num in stack)
+        //    {   
+        //        Count++;
+        //        if (target == num)
+        //        {
+        //            Console.WriteLine($"Target was found successfully and the count = {Count}");
+        //            found = true;
+                    
+        //        }
+                 
+        //    }
+        //    if (!found)
+        //    {
+        //        Console.WriteLine("Target was not found in the stack.");
+        //    }
+
+
+
+
+        //}
+        #endregion 
         static void Main(string[] args)
         {
             #region CallQ1
@@ -391,6 +430,10 @@ namespace Ass2AdvancedC_
             //    Console.WriteLine(item);
             //}
 
+            #endregion
+
+            #region CallQ12
+          //  Search();
             #endregion
         }
     }
