@@ -115,7 +115,7 @@ namespace Ass2AdvancedC_
         //                }
         //                break;
         //            }
-                    
+
         //        }
 
         //    }
@@ -123,6 +123,21 @@ namespace Ass2AdvancedC_
         //}
         #endregion
 
+        #region Q7
+        //public static void ReverseQueue (Queue<int> queue)
+        //{
+        //    Stack<int> stack = new Stack<int>();
+        //    while (queue.Count > 0)
+        //    {
+        //        stack.Push(queue.Dequeue());
+        //    }
+        //    while (stack.Count > 0)
+        //    {
+        //        queue.Enqueue(stack.Pop());
+        //    }
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1
@@ -246,6 +261,27 @@ namespace Ass2AdvancedC_
             //    Console.WriteLine("No");
 
             //}
+            #endregion
+
+            #region CallQ7
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+            //Console.WriteLine("Original Queue:");
+            //foreach (int item in queue)
+            //{
+            //    Console.Write(item + " ");
+            //}
+            //Console.WriteLine();
+            //ReverseQueue(queue);
+            //Console.WriteLine("Reversed Queue:");
+            //foreach (int item in queue)
+            //{
+            //    Console.Write(item + " ");
+            //}
+
             #endregion
         }
     }
