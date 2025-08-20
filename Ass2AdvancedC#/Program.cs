@@ -61,6 +61,34 @@ namespace Ass2AdvancedC_
 
         //}
         #endregion
+
+        #region Q4
+        //public static int NonRepeatedCharacter (string word)
+        //{
+        //    Dictionary<char, int> Characters = new Dictionary<char, int>();
+
+        //    for (int i = 0; i < word.Length; i++)
+        //    {
+        //        if (Characters.ContainsKey(word[i]))
+        //        {
+        //            Characters[word[i]]++;
+        //        }
+        //        else
+        //        {
+        //            Characters[word[i]] = 1;
+        //        }
+        //    }
+        //    for (int i = 0; i < word.Length; i++)
+        //    {
+        //        if (Characters[word[i]] == 1)
+        //            return i;
+
+        //    }
+        //    return -1; 
+        //}
+
+        #endregion
+
         static void Main(string[] args)
         {
             #region CallQ1
@@ -120,6 +148,22 @@ namespace Ass2AdvancedC_
             //{
             //    Console.WriteLine(ex.Message);
             //}
+
+            #endregion
+
+            #region CallQ4
+
+           //string word = "aKarim";
+           //int index = NonRepeatedCharacter(word);
+           // if (index != -1)
+           // {
+           //     Console.Write($"The First Character NonRepeated is : {word[index]} And its index : {index}");
+           // }
+           // else
+           // {
+           //     Console.WriteLine("There is no non-repeated character in the word.");
+           // }
+
 
             #endregion
 
