@@ -89,6 +89,40 @@ namespace Ass2AdvancedC_
 
         #endregion
 
+        #region Q6
+        //public static bool IsPalindrome()
+        //{
+        //    Console.WriteLine("Enter the size of the array:");
+        //    int N = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("Enter the elements of the array:");
+        //    string[] Inputs = Console.ReadLine().Split(' ');
+
+        //    int[] Array = new int[N];
+        //    for (int i = 0; i < Array.Length; i++)
+        //    {
+        //        Array[i] = int.Parse(Inputs[i]);
+        //    }
+
+        //    for (int i = 0; i < Array.Length; i++)
+        //    {
+        //        for (int j = Array.Length - 1-i; j >= 0; j--)
+        //        {
+        //            if (j > i)
+        //            {
+        //                if (Array[i] != Array[j])
+        //                {
+        //                return false;
+        //                }
+        //                break;
+        //            }
+                    
+        //        }
+
+        //    }
+        //    return true;
+        //}
+        #endregion
+
         static void Main(string[] args)
         {
             #region CallQ1
@@ -202,7 +236,17 @@ namespace Ass2AdvancedC_
 
             #endregion
 
+            #region CallQ6
+            //if (IsPalindrome())
+            //{
+            //    Console.WriteLine("Yes");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No");
 
+            //}
+            #endregion
         }
     }
 }
