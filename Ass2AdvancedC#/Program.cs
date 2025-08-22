@@ -226,9 +226,9 @@ namespace Ass2AdvancedC_
         //        {
         //            Console.WriteLine($"Target was found successfully and the count = {Count}");
         //            found = true;
-                    
+
         //        }
-                 
+
         //    }
         //    if (!found)
         //    {
@@ -239,7 +239,37 @@ namespace Ass2AdvancedC_
 
 
         //}
-        #endregion 
+        #endregion
+
+        #region Q14
+        //public static void FindSubList(ArrayList arrayList , int Target)
+        //{
+        //    for (int i = 0; i < arrayList.Count; i++)
+        //    {
+        //        int Sum = 0;
+        //        ArrayList SubList = new ArrayList();
+
+        //        for (int j = i; j < arrayList.Count; j++)
+        //        {
+        //            Sum += (int)arrayList[j];
+        //            SubList.Add(arrayList[j]);
+        //            if (Sum == Target)
+        //            {
+        //                Console.Write("SubList Found:\n [ ");
+        //                foreach (int item in SubList)
+        //                {
+        //                    Console.Write(item + " ");
+        //                }
+        //                Console.Write("]");
+        //                return;
+        //            }
+        //        }
+        //    }
+        //    Console.WriteLine("No SubList Found");
+        //}
+        #endregion
+
+
         static void Main(string[] args)
         {
             #region CallQ1
@@ -433,8 +463,17 @@ namespace Ass2AdvancedC_
             #endregion
 
             #region CallQ12
-          //  Search();
+            //  Search();
             #endregion
+
+            #region CallQ14
+            //ArrayList arrayList = new ArrayList() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //Console.WriteLine("Enter the Target to search :");
+            //int Target = int.Parse(Console.ReadLine());
+            //FindSubList(arrayList, Target);
+            #endregion
+
+
         }
     }
 }
