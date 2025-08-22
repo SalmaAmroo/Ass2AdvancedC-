@@ -269,6 +269,34 @@ namespace Ass2AdvancedC_
         //}
         #endregion
 
+        #region Q15
+        //public static void ReverseKElements(Queue<int> queue, int k)
+        //{
+        //    if (k > queue.Count || k <= 0)
+        //    {
+        //        Console.WriteLine("Invalid K");
+        //        return;
+        //    }
+
+        //    Stack<int> stack = new Stack<int>();
+        //    for (int i = 0; i < k; i++)
+        //    {
+        //        int element = queue.Dequeue();
+        //        stack.Push(element);
+        //    }
+        //    while (stack.Count > 0)
+        //    {
+        //        queue.Enqueue(stack.Pop());
+        //    }
+
+        //    int remaining = queue.Count - k;
+        //    for (int i = 0; i < remaining; i++)
+        //    {
+        //        queue.Enqueue(queue.Dequeue());
+        //    }
+        //}
+        #endregion
+
 
         static void Main(string[] args)
         {
@@ -471,6 +499,31 @@ namespace Ass2AdvancedC_
             //Console.WriteLine("Enter the Target to search :");
             //int Target = int.Parse(Console.ReadLine());
             //FindSubList(arrayList, Target);
+            #endregion
+
+            #region CallQ15
+
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+                
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+            //queue.Enqueue(5);
+            //int k = 4;
+            //Console.WriteLine("Original Queue:");
+            //foreach (int item in queue)
+            //{
+            //    Console.Write(item + " ");
+            //}
+            //ReverseKElements(queue, k);
+            //Console.WriteLine();
+            //Console.WriteLine("Queue after reversing first K elements:");
+            //foreach (int item in queue)
+            //{
+            //    Console.Write(item + " ");
+            //}
+            
             #endregion
 
 
